@@ -2,11 +2,50 @@
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Website đầu tiên</title>
+  <title>Demo Hiệu Ứng JavaScript</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Xin chào GitHub Pages</h1>
-  <h1>a</h1>
-  <p>Website này được tạo miễn phí bằng GitHub Pages</p>
+
+<div id="loading">Loading...</div>
+
+<header>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <button id="themeBtn">🌙</button>
+  <button id="openModal">Popup</button>
+</header>
+
+<section id="home">
+  <h1 id="typing"></h1>
+</section>
+
+<section id="about">
+  <div class="box">
+    <h2>Scroll Animation</h2>
+    <p>Nội dung xuất hiện khi cuộn</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="box">
+    <h2>Liên hệ</h2>
+    <p>Email: example@gmail.com</p>
+  </div>
+</section>
+
+<button id="topBtn">⬆</button>
+
+<!-- Modal -->
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <h3>Popup</h3>
+    <p>Đây là modal popup</p>
+    <button id="closeModal">Đóng</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
